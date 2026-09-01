@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>王法老师新书见面会 · 9月18日郑州</title>
+<meta name="description" content="9月18日（周五）09:00，郑州华林新时代广场。与资深医药人王法老师面对面，限额开放报名。">
+<meta property="og:title" content="王法老师新书见面会 · 9月18日郑州">
+<meta property="og:description" content="9月18日（周五）09:00，郑州华林新时代广场。与资深医药人王法老师面对面，限额开放报名。">
+<meta property="og:image" content="https://yiluyouni-cui.github.io/wangfa-meeting/assets/share-card-v2.png?v=202608292109">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:image:type" content="image/png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yiluyouni-cui.github.io/wangfa-meeting">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="王法老师新书见面会 · 9月18日郑州">
+<meta name="twitter:description" content="9月18日（周五）09:00，郑州华林新时代广场。与资深医药人王法老师面对面，限额开放报名。">
+<meta name="twitter:image" content="https://yiluyouni-cui.github.io/wangfa-meeting/assets/share-card-v2.png?v=202608292109">
+<style>
+  :root{
+    --cream:#F5F5F0;
+    --ink:#1A1A1A;
+    --green:#1E9F6D;
+    --green-08:rgba(30,159,109,.08);
+    --green-15:rgba(30,159,109,.15);
+    --gray:#666;
+    --gray-3:#999;
+    --card:#fff;
+    --shadow:0 4px 20px rgba(0,0,0,.06);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background:#E6E6DF;color:var(--ink);line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{display:block;max-width:100%;}
+  .page{max-width:420px;margin:0 auto;background:var(--cream);min-height:100vh;overflow:hidden;}
+
+  /* Header */
+  .header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+    height:56px;padding:0 20px;background:rgba(245,245,240,.92);backdrop-filter:saturate(180%) blur(10px);}
+  .brand{font-size:15px;font-weight:600;color:var(--ink);}
+  .share-btn{height:32px;padding:0 14px;border:none;border-radius:16px;background:var(--green);color:#fff;
+    font-size:12px;font-weight:500;cursor:pointer;}
+  .share-tip{display:none;align-items:center;justify-content:center;gap:6px;padding:10px 16px;
+    background:var(--green-08);color:var(--green);font-size:13px;font-weight:500;text-align:center;line-height:1.5;}
+  .share-tip.show{display:flex;animation:tipIn .4s ease;}
+  .share-tip b{font-weight:700;}
+  @keyframes tipIn{from{opacity:0;transform:translateY(-6px);}to{opacity:1;transform:none;}}
+
+  /* Hero */
+  .hero{padding:26px 24px 36px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;}
+  .hero-visual{width:100%;border-radius:18px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.12);}
+  .hero-visual img{width:100%;height:auto;}
+  .badge{display:inline-block;padding:6px 14px;border-radius:14px;background:var(--green-08);color:var(--green);font-size:12px;font-weight:500;}
+  .hero-title{font-size:30px;font-weight:700;line-height:1.3;}
+  .hero-sub{font-size:19px;font-weight:600;color:var(--green);}
+  .hero-tag{font-size:14px;color:var(--gray);}
+  .info-card{width:100%;display:flex;flex-direction:column;gap:12px;margin-top:8px;}
+  .info-row{display:flex;align-items:center;gap:12px;background:#fff;padding:16px;border-radius:14px;box-shadow:var(--shadow);text-align:left;}
+  .info-icon{flex:0 0 40px;width:40px;height:40px;border-radius:10px;background:var(--green-08);display:flex;align-items:center;justify-content:center;}
+  .info-icon svg{width:22px;height:22px;}
+  .info-label{font-size:12px;color:var(--gray-3);margin-bottom:2px;}
+  .info-value{font-size:15px;font-weight:600;color:var(--ink);line-height:1.45;}
+  .cta-primary{width:100%;height:52px;border:none;border-radius:12px;background:var(--green);color:#fff;
+    font-size:17px;font-weight:700;cursor:pointer;box-shadow:0 8px 20px rgba(30,159,109,.28);margin-top:4px;}
+
+  /* Section */
+  .section{padding:44px 24px;display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center;}
+  .section-head{display:flex;flex-direction:column;align-items:center;gap:8px;}
+  .section-label{font-size:12px;font-weight:500;color:var(--green);letter-spacing:.5px;}
+  .section-title{font-size:24px;font-weight:700;line-height:1.35;}
+
+  /* Speaker */
+  .speaker-card{width:100%;background:#fff;border-radius:20px;padding:28px 24px;display:flex;flex-direction:column;align-items:center;gap:18px;box-shadow:var(--shadow);}
+  .speaker-photo{width:150px;height:190px;border-radius:12px;object-fit:cover;background:#eee;}
+  .speaker-name{font-size:24px;font-weight:700;}
+  .speaker-bio{font-size:14px;color:var(--gray);text-align:center;line-height:1.8;}
+  .speaker-tag{display:inline-block;padding:8px 16px;border-radius:16px;background:var(--green-15);color:var(--green);font-size:12px;font-weight:500;}
+
+  /* Book */
+  .book-cover{width:200px;height:auto;border-radius:14px;box-shadow:0 12px 24px rgba(0,0,0,.1);}
+  .book-grid{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .book-item{background:#fff;border-radius:12px;padding:16px;text-align:left;box-shadow:var(--shadow);}
+  .book-num{width:28px;height:28px;border-radius:8px;background:var(--green-08);color:var(--green);font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:10px;}
+  .book-title{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:6px;line-height:1.4;}
+  .book-desc{font-size:12px;color:var(--gray-3);line-height:1.5;}
+
+  /* Venue */
+  .venue-img{width:100%;border-radius:16px;object-fit:cover;max-height:240px;box-shadow:var(--shadow);}
+  .venue-caption{font-size:13px;color:var(--gray-3);}
+
+  /* Agenda */
+  .agenda-list{width:100%;display:flex;flex-direction:column;gap:14px;}
+  .agenda-row{display:flex;align-items:center;gap:14px;text-align:left;background:#fff;border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);}
+  .agenda-row.hl{background:var(--green-15);}
+  .agenda-time{flex:0 0 60px;display:flex;flex-direction:column;gap:2px;}
+  .agenda-time .t{font-size:15px;font-weight:700;color:var(--green);}
+  .agenda-time .d{font-size:11px;color:var(--gray-3);}
+  .agenda-content .at{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:4px;}
+  .agenda-content .ad{font-size:12px;color:var(--gray);line-height:1.5;}
+
+  /* FAQ */
+  .faq-list{width:100%;display:flex;flex-direction:column;gap:12px;}
+  .faq-item{background:#fff;border-radius:16px;padding:18px 20px;text-align:left;box-shadow:var(--shadow);}
+  .faq-q{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:8px;}
+  .faq-a{font-size:13px;color:var(--gray);line-height:1.7;}
+
+  /* Signup */
+  .signup{background:var(--green);padding:48px 24px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;}
+  .signup-title{font-size:26px;font-weight:700;color:#fff;}
+  .signup-sub{font-size:14px;color:rgba(255,255,255,.9);}
+  .qr-wrap{width:200px;height:200px;border-radius:20px;background:#fff;padding:10px;margin-top:10px;box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer;}
+  .qr-img{width:100%;height:100%;border-radius:12px;object-fit:cover;}
+  .signup-hint{font-size:13px;color:rgba(255,255,255,.9);}
+  .signup>.state{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;}
+  .state-hide{display:none !important;}
+  .cta-note{margin-top:12px;font-size:13px;font-weight:600;color:var(--green);letter-spacing:.3px;}
+  .cd-title{font-size:13px;color:rgba(255,255,255,.9);letter-spacing:1px;}
+  .countdown{display:flex;gap:10px;justify-content:center;}
+  .cd-cell{background:rgba(255,255,255,.16);border-radius:12px;padding:10px 6px;min-width:56px;display:flex;flex-direction:column;align-items:center;gap:3px;}
+  .cd-num{font-size:22px;font-weight:700;color:#fff;line-height:1;}
+  .cd-lab{font-size:11px;color:rgba(255,255,255,.85);}
+  .notify-btn{background:#fff;color:var(--green);border:none;border-radius:999px;padding:15px 32px;font-size:16px;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.14);cursor:pointer;}
+  .notify-tip{font-size:12px;color:rgba(255,255,255,.88);line-height:1.7;max-width:300px;}
+  .warm-more{display:none;}
+  .warm-more.show{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;}
+  .group-join{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;margin-top:26px;padding-top:24px;border-top:1px solid rgba(255,255,255,.18);}
+  .group-join .signup-hint{color:#BFE6D4;}
+
+  /* Footer */
+  .footer{background:var(--ink);padding:32px 24px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;}
+  .footer-brand{font-size:16px;font-weight:600;color:#fff;}
+  .footer-tag{font-size:12px;color:var(--gray-3);}
+  .footer-copy{font-size:11px;color:#777;}
+
+  /* Modal */
+  .modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;}
+  .modal.show{display:flex;}
+  .modal-mask{position:absolute;inset:0;background:rgba(0,0,0,.82);}
+  .modal-img{position:relative;width:80%;max-width:320px;border-radius:16px;background:#fff;padding:14px;z-index:1;}
+
+  /* Reveal */
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.in{opacity:1;transform:none;}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+  /* Lei Jun style: slogan + stats + pain */
+  .hero-slogan{display:inline-block;padding:7px 16px;border:1.5px solid var(--green);border-radius:20px;
+    font-size:14px;font-weight:700;color:var(--green);letter-spacing:.5px;}
+  .hero-lead{font-size:15px;color:var(--ink);line-height:1.7;max-width:330px;}
+  .hero-lead b{color:var(--green);}
+  .stats{width:100%;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:6px;}
+  .stat{background:#fff;border-radius:14px;padding:14px 6px;box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;gap:5px;}
+  .stat-num{font-size:22px;font-weight:800;color:var(--green);line-height:1;}
+  .stat-num span{font-size:13px;font-weight:700;margin-left:1px;}
+  .stat-label{font-size:11px;color:var(--gray-3);text-align:center;line-height:1.3;}
+  .pain{width:100%;background:var(--green-15);border-radius:16px;padding:22px 20px;text-align:left;}
+  .pain-q{font-size:14px;font-weight:600;color:var(--ink);line-height:1.7;margin-bottom:12px;}
+  .pain-q span{color:var(--green);font-weight:700;}
+  .pain-a{font-size:13px;color:var(--gray);line-height:1.85;}
+  .footer-slogan{font-size:15px;font-weight:700;color:#fff;letter-spacing:.5px;margin-bottom:4px;}
+  /* Background music */
+  .music-btn{position:fixed;right:16px;bottom:22px;z-index:60;width:44px;height:44px;border-radius:50%;
+    background:rgba(30,159,109,.92);border:none;padding:0;cursor:pointer;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 6px 16px rgba(0,0,0,.18);}
+  .music-btn svg{width:22px;height:22px;fill:#fff;}
+  .music-btn.playing{animation:spin 3s linear infinite;}
+  .music-label{position:fixed;right:68px;bottom:31px;z-index:60;display:flex;align-items:center;gap:5px;
+    font-size:12px;color:#fff;background:rgba(30,159,109,.92);padding:5px 11px;border-radius:14px;
+    box-shadow:0 6px 16px rgba(0,0,0,.18);max-width:46vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .music-label .note{font-size:13px;line-height:1;}
+  @keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="header">
+    <div class="brand">医药人生长圈</div>
+    <button class="share-btn" id="shareBtn">分享给朋友</button>
+  </header>
+
+  <div class="share-tip" id="shareTip">微信内打开后，点右上角 <b>···</b> 即可分享给朋友或朋友圈</div>
+  <audio id="bgm" loop preload="none" src="assets/bgm.mp3"></audio>
+  <div class="music-label"><span class="note">♪</span>翻开未来</div>
+  <button class="music-btn" id="musicBtn" aria-label="背景音乐开关">
+    <svg viewBox="0 0 24 24"><path d="M9 17.5a2.5 2.5 0 11-2.5-2.5c.55 0 1.06.18 1.5.49V4l9-2v9.5a2.5 2.5 0 11-2.5-2.5c.55 0 1.06.18 1.5.49V5.2L9 6.7v10.8z"/></svg>
+  </button>
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-visual"><img src="assets/invitation.jpg" alt="见面会主视觉" fetchpriority="high" decoding="async"></div>
+    <div class="hero-slogan">销售驱动退场，医学驱动登场</div>
+    <h1 class="hero-title">王法老师新书见面会</h1>
+    <p class="hero-sub">《从销售驱动到医学驱动》· 郑州首场</p>
+    <p class="hero-lead">20余年医药销售及市场管理经验，10年企业咨询与培训经验 · 5家跨国药企 · 4本行业畅销书。<br>9月18日，老王把方法论<b>当面讲给你听</b>。</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-num">5<span>家</span></div><div class="stat-label">顶级药企履历</div></div>
+      <div class="stat"><div class="stat-num">4<span>本</span></div><div class="stat-label">行业畅销书</div></div>
+      <div class="stat"><div class="stat-num">1万<span>+</span></div><div class="stat-label">铁杆书友</div></div>
+      <div class="stat"><div class="stat-num">50<span>席</span></div><div class="stat-label">郑州首场限额</div></div>
+    </div>
+    <div class="info-card">
+      <div class="info-row">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="4" width="18" height="17" rx="2" stroke="#1E9F6D" stroke-width="2"/>
+            <path d="M3 9h18" stroke="#1E9F6D" stroke-width="2"/>
+            <path d="M8 2v4M16 2v4" stroke="#1E9F6D" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <div class="info-label">见面会时间</div>
+          <div class="info-value">9月18日 08:30 签到 · 09:00-12:00</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" stroke="#1E9F6D" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="12" cy="9" r="2.5" fill="#1E9F6D"/>
+          </svg>
+        </div>
+        <div>
+          <div class="info-label">见面会地址</div>
+          <div class="info-value">郑州市管城回族区紫荆山路56号<br>华林新时代广场2层</div>
+        </div>
+      </div>
+    </div>
+    <button class="cta-primary" id="signupBtn">抢席位 · 立即预约</button>
+    <div class="cta-note">到场即赠 · 王法老师亲笔签名新书</div>
+  </section>
+
+  <!-- SPEAKER -->
+  <section class="section reveal">
+    <div class="section-head">
+      <div class="section-label">主讲嘉宾</div>
+      <h2 class="section-title">与王法老师面对面</h2>
+    </div>
+    <div class="speaker-card">
+      <img class="speaker-photo" src="assets/teacher.jpg" alt="王法老师" loading="lazy" decoding="async">
+      <div class="speaker-name">王法</div>
+      <div class="speaker-bio">医药行业专业销售及领导力资深顾问<br>毕业于西安交通大学药学院，北京大学MBA<br>曾就职于杨森、阿斯利康、诺华、罗氏、扬子江<br>畅销医药代表书籍作者</div>
+      <div class="speaker-tag">一线销售经验 · 管理实战 · 上万学员</div>
+    </div>
+  </section>
+
+  <!-- PAIN (Lei Jun empathy) -->
+  <section class="section reveal">
+    <div class="pain">
+      <div class="pain-q">做医药代表的你，是不是也卡在过这几关？<br><span>被指标追着跑，却讲不清医学价值；想转型医学驱动，却找不到方法论。</span></div>
+      <div class="pain-a">这一次，王法老师把30年踩过的坑、跑通的路，浓缩成一场3小时的当面分享。不是听课，是和老王聊透——你带着问题来，他带着答案走。</div>
+    </div>
+  </section>
+
+  <!-- BOOK -->
+  <section class="section reveal">
+    <div class="section-head">
+      <div class="section-label">新书亮点</div>
+      <h2 class="section-title">一本书，让专业创造更大的价值</h2>
+    </div>
+    <img class="book-cover" src="assets/cover.jpg" alt="新书封面" loading="lazy" decoding="async">
+    <div class="book-grid">
+      <div class="book-item">
+        <div class="book-num">1</div>
+        <div class="book-title">新书河南首场见面会</div>
+        <div class="book-desc">以郑州为起点，搭建书友交流桥梁</div>
+      </div>
+      <div class="book-item">
+        <div class="book-num">2</div>
+        <div class="book-title">医学驱动新理念</div>
+        <div class="book-desc">从销售驱动到医学驱动底层逻辑</div>
+      </div>
+      <div class="book-item">
+        <div class="book-num">3</div>
+        <div class="book-title">AI 工具落地实践</div>
+        <div class="book-desc">第一批读者分享与AI真实落地案例分享</div>
+      </div>
+      <div class="book-item">
+        <div class="book-num">4</div>
+        <div class="book-title">全省联动 · 圆桌对话</div>
+        <div class="book-desc">主会场 + 分会场同步直播</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENUE -->
+  <section class="section reveal">
+    <div class="section-head">
+      <div class="section-label">会场实景</div>
+      <h2 class="section-title">身临其境的会场体验</h2>
+    </div>
+    <img class="venue-img" src="assets/lobby.jpg" alt="大厅与签名墙" loading="lazy" decoding="async">
+    <img class="venue-img" src="assets/venue.jpg" alt="会场与LED屏幕" loading="lazy" decoding="async">
+    <p class="venue-caption">华林新时代广场 · 整洁明亮的会议空间 · 专属签名墙</p>
+  </section>
+
+  <!-- AGENDA -->
+  <section class="section reveal">
+    <div class="section-head">
+      <div class="section-label">活动流程</div>
+      <h2 class="section-title">半天，从理念到实践的完整闭环</h2>
+    </div>
+    <div class="agenda-list">
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">08:30</span><span class="d">30min</span></div>
+        <div class="agenda-content"><div class="at">签到 · 茶歇 · 新书展示</div><div class="ad">签名墙合影、新书展示区</div></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">09:00</span><span class="d">10min</span></div>
+        <div class="agenda-content"><div class="at">主持开场</div><div class="ad">介绍活动背景与日程</div></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">09:10</span><span class="d">10min</span></div>
+        <div class="agenda-content"><div class="at">主办方开场致辞</div><div class="ad">郑重介绍王法老师与著作</div></div>
+      </div>
+      <div class="agenda-row hl">
+        <div class="agenda-time"><span class="t">09:20</span><span class="d">70min</span></div>
+        <div class="agenda-content"><div class="at">王法老师主题分享</div><div class="ad">《从销售驱动到医学驱动》核心观点与新书导读</div></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">10:30</span><span class="d">30min</span></div>
+        <div class="agenda-content"><div class="at">AI 实践分享</div><div class="ad">第一批读者分享书中方法论 + AI 工具真实落地案例</div></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">11:00</span><span class="d">30min</span></div>
+        <div class="agenda-content"><div class="at">圆桌深度讨论</div><div class="ad">生产企业嘉宾，共探医学驱动转型路径</div></div>
+      </div>
+      <div class="agenda-row hl">
+        <div class="agenda-time"><span class="t">11:30</span><span class="d">30min</span></div>
+        <div class="agenda-content"><div class="at">新书签名 + 合影留念</div><div class="ad">现场签书、一对一合影，活动高光收尾</div></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time"><span class="t">12:00</span><span class="d">交流</span></div>
+        <div class="agenda-content"><div class="at">签名新书领取 · 自由交流</div><div class="ad">到场书友均可获赠王法老师亲笔签名新书，与同行继续对话</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section reveal">
+    <div class="section-head">
+      <div class="section-label">常见问题</div>
+      <h2 class="section-title">你可能想知道</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Q：活动收费吗？</div>
+        <div class="faq-a">A：行业公益学术交流性质，场地布置、茶歇、签名新书等由主办方承担。主会场限额 50-60 人，需提前预约报名，谢绝空降。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q：适合哪些人参加？</div>
+        <div class="faq-a">A：主要面向医药生产企业销售经理（主会场限额 50-60 人）；根据报名情况安排分会场同步直播参与。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q：能拿到签名书吗？</div>
+        <div class="faq-a">A：现场设新书签名环节，主办方已按到场人数备足签名本，可获王法老师亲笔签名书并一对一合影。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNUP -->
+  <section class="signup reveal" id="signup">
+    <!-- STATE A：9/7 前 · 预约提醒态 -->
+    <div class="state" id="stateWarm">
+      <div class="cd-title">正式报名开放倒计时</div>
+      <div class="countdown">
+        <div class="cd-cell"><span class="cd-num" id="wd">--</span><span class="cd-lab">天</span></div>
+        <div class="cd-cell"><span class="cd-num" id="wh">--</span><span class="cd-lab">时</span></div>
+        <div class="cd-cell"><span class="cd-num" id="wm">--</span><span class="cd-lab">分</span></div>
+        <div class="cd-cell"><span class="cd-num" id="ws">--</span><span class="cd-lab">秒</span></div>
+      </div>
+      <h2 class="signup-title">9月7日开放正式报名</h2>
+      <p class="signup-sub">郑州首场 · 仅50-60席 · 到场即赠亲笔签名新书</p>
+      <button class="notify-btn" id="notifyBtn">加提醒 · 开放报名第一时间通知我</button>
+      <p class="notify-tip">现在无需抢座。留下预约意向，9月7日开放报名与会前 1-2 天各推送一次提醒，不错过席位。</p>
+      <div class="group-join">
+        <div class="qr-wrap"><img class="qr-img" src="assets/group-qr.png" alt="见面会交流群二维码" loading="lazy" decoding="async"></div>
+        <p class="signup-hint">长按识别 · 提前加入见面会交流群（9月7日前有效）</p>
+      </div>
+      <div class="warm-more" id="warmMore">
+        <div class="qr-wrap"><img class="qr-img" src="assets/qrcode.jpg" alt="预约登记二维码" loading="lazy" decoding="async"></div>
+        <p class="signup-hint">长按识别 · 填写预约登记</p>
+      </div>
+    </div>
+    <!-- STATE B：9/7 起 · 正式报名态 -->
+    <div class="state state-hide" id="stateOpen">
+      <div class="cd-title">距见面会开幕</div>
+      <div class="countdown">
+        <div class="cd-cell"><span class="cd-num" id="od">--</span><span class="cd-lab">天</span></div>
+        <div class="cd-cell"><span class="cd-num" id="oh">--</span><span class="cd-lab">时</span></div>
+        <div class="cd-cell"><span class="cd-num" id="om">--</span><span class="cd-lab">分</span></div>
+        <div class="cd-cell"><span class="cd-num" id="os">--</span><span class="cd-lab">秒</span></div>
+      </div>
+      <h2 class="signup-title">郑州首场，仅50-60席</h2>
+      <p class="signup-sub">到场即赠亲笔签名新书 · 扫码填表，先到先得</p>
+      <div class="qr-wrap" id="qrWrap"><img class="qr-img" src="assets/qrcode.jpg" alt="报名二维码" loading="lazy" decoding="async"></div>
+      <p class="signup-hint">长按识别二维码 · 填写腾讯文档报名表</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">医药人生长圈</div>
+    <div class="footer-slogan">永远相信，医学驱动的力量。</div>
+    <div class="footer-tag">分享专业 · 连接实践 · 共促成长</div>
+    <div class="footer-copy">© 2026 王法老师新书见面会 · 郑州站</div>
+  </footer>
+
+</div>
+
+<!-- QR Modal -->
+<div class="modal" id="qrModal">
+  <div class="modal-mask" id="qrMask"></div>
+  <img class="modal-img" src="assets/qrcode.jpg" alt="报名二维码大图" loading="lazy" decoding="async">
+</div>
+
+<script>
+  document.getElementById('signupBtn').addEventListener('click', function(){
+    document.getElementById('signup').scrollIntoView({behavior:'smooth'});
+  });
+  var qrModal = document.getElementById('qrModal');
+  document.getElementById('qrWrap').addEventListener('click', function(){ qrModal.classList.add('show'); });
+  document.getElementById('qrMask').addEventListener('click', function(){ qrModal.classList.remove('show'); });
+
+  /* ---- 双态：9/7 前预约提醒态 → 9/7 起正式报名态 ---- */
+  var OPEN_TS  = new Date('2026-09-07T00:00:00+08:00').getTime();
+  var EVENT_TS = new Date('2026-09-18T09:00:00+08:00').getTime();
+  var elWarm = document.getElementById('stateWarm');
+  var elOpen = document.getElementById('stateOpen');
+  var ctaBtn = document.getElementById('signupBtn');
+  function pad2(n){ return n < 10 ? '0' + n : '' + n; }
+  function setCd(pre, ms){
+    if(ms < 0) ms = 0;
+    var d = Math.floor(ms/86400000),
+        h = Math.floor(ms%86400000/3600000),
+        m = Math.floor(ms%3600000/60000),
+        sec = Math.floor(ms%60000/1000);
+    var a = document.getElementById(pre+'d'); if(a) a.textContent = d;
+    var b = document.getElementById(pre+'h'); if(b) b.textContent = pad2(h);
+    var c = document.getElementById(pre+'m'); if(c) c.textContent = pad2(m);
+    var e = document.getElementById(pre+'s'); if(e) e.textContent = pad2(sec);
+  }
+  function tickState(){
+    var now = Date.now(), open = now >= OPEN_TS;
+    if(elWarm) elWarm.classList.toggle('state-hide', open);
+    if(elOpen) elOpen.classList.toggle('state-hide', !open);
+    if(ctaBtn) ctaBtn.textContent = open ? '抢席位 · 立即报名' : '加提醒 · 9月7日开放报名';
+    if(open) setCd('o', EVENT_TS - now); else setCd('w', OPEN_TS - now);
+  }
+  tickState();
+  setInterval(tickState, 1000);
+
+  var notifyBtn = document.getElementById('notifyBtn');
+  if(notifyBtn) notifyBtn.addEventListener('click', function(){
+    var more = document.getElementById('warmMore');
+    more.classList.add('show');
+    more.scrollIntoView({behavior:'smooth', block:'center'});
+  });
+  document.getElementById('shareBtn').addEventListener('click', function(){
+    var isWeChat = /micromessenger/i.test(navigator.userAgent);
+    if(isWeChat){
+      var tip = document.getElementById('shareTip');
+      tip.classList.add('show');
+      tip.scrollIntoView({behavior:'smooth', block:'center'});
+      return;
+    }
+    var url = location.href;
+    if(navigator.share){
+      navigator.share({title:document.title, url:url}).catch(function(){});
+    } else if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){
+        alert('链接已复制，去微信发给朋友吧');
+      }).catch(function(){
+        alert('请点击右上角「···」分享给朋友');
+      });
+    } else {
+      alert('请点击右上角「···」分享给朋友');
+    }
+  });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* Background music */
+  var bgm = document.getElementById('bgm');
+  var musicBtn = document.getElementById('musicBtn');
+  function startMusic(){ bgm.play().catch(function(){}); }
+  function toggleMusic(){ if(bgm.paused){ startMusic(); } else { bgm.pause(); } }
+  musicBtn.addEventListener('click', function(e){ e.stopPropagation(); toggleMusic(); });
+  bgm.addEventListener('play', function(){ musicBtn.classList.add('playing'); });
+  bgm.addEventListener('pause', function(){ musicBtn.classList.remove('playing'); });
+  function tryAutoplay(){ if(bgm.paused){ startMusic(); } document.removeEventListener('touchstart', tryAutoplay); document.removeEventListener('click', tryAutoplay); }
+  document.addEventListener('touchstart', tryAutoplay, {once:true});
+  document.addEventListener('click', tryAutoplay, {once:true});
+</script>
+
+</body>
+</html>
